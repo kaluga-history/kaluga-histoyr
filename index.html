@@ -1,133 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Space Z</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="containers">
-            <a class="logo">
-    <img src="img/logo 1.png" alt="img">
-    </a>
-    <ul class="list">
-    <li><a href="#">Компания</a></li>
-    <li><a href="#">Каталог</a></li>
-    <li><a href="#">Контакты</a></li>
-</ul>
-<ul class="contacs-menu">
-    <li>
-        <a href="#" class="icon-icon mail" title="Написать нам">
-            <span class="visual-hidden">Написать нам</span>
-        </a>
-    </li>
-    <li>
-        <a href="#" class="icon icon-phone" title="Позвонить нам">
-            <span class="visually-hidden">Позвонить нам</span>
-        </a>
-    </li>
-</ul>
-</nav>
-<div class="text">
-    <h1>На Луну
-        и обратно</h1>
-    <p>Космически крутой туризм.
-        Пакетные и индивидуальные туры
-        по лучшим планетам галактики.</p>
-        <button>Подбор труда</button>
-        <img scr="img/moon-rocket 1.png" alt="moon-rocket">
-    </div>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a class="logo">
+                    <img src="img/logo.png" alt="SpaceZ" width="60" height="60">
+                </a>
+                <ul class="site-menu">
+                    <li><a href="#">Компания</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="contacts-menu">
+                    <li>
+                        <a href="#" class="icon icon-mail" title="Написать нам">
+                            <span class="visually-hidden">Написать нам</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon icon-phone" title="Позвонить нам">
+                            <span class="visually-hidden">Позвонить нам</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="about-us">
+                <h1>На Луну и обратно</h1>
+                <p>
+                    Космически крутой туризм.<br>
+                    Пакетные и индивидуальные туры по лучшим планетам галактики.
+                </p>
+                <a href="#" class="btn btn-yellow">Подбор тура</a>
+                
+            </section>
+        </div>
     </header>
-        <main>
-        <h1>Наши преимущества</h1>
-        <img scr="img/advantage-icon-1 1.png" alt="">
-        <li>Комфортабельные
-            ракеты отечественного
-            производства.</li>
-            <ul> 
-            <img src="img/advantage-icon-2 1.icon" alt="">
-            <li> Вкусное и полезное 
-                космическое питание
-                на борту</li>
-                <img src="img/advantage-icon-3 1.png" alt="">
-                <li>Весь состав пилотов состоит из бывших космонавтов</li>
-                <img src="img/advantage-icon-4 1.png" alt="">
-                <li>Экскурсии на луноходк на Море Ясности и Океан Бурь</li>
-                <img src="img/" alt="map 1">
-            </ul>
-                <h1>Рекомедации для космических туристов</h1>
-                <h3>Не забудтье взять с собой:</h3>
-                <ul class="items">
-                <li><b>Паспорт.</b>Визовый режим пока не введён, но на границе будет досмотор.</li>
-                <li><b>Тяжёлые ботинкию.</b>Пригодятся вам при условиях низкой гравитации.</li>
-                <li><b>Криптоволюта.</b>Рекомедуем заранее обменять немного Луно-койнов, чтобы купить сувениров.</li>
-                <h3>Это лучше оставить дома.</h3>
-                <li><b>Телфон.</b>В космосе не ловит ваш любимый WI-FI</li>
-                <li><b>Бутерброды.</b>На борту будет питание, которое не рпзлетится по кабине в условиях невесомости.</li>
-                <li><b>Плавки/купальники.</b>Море Ясности и Океан Бурь это большые карьеры. Без воды.</li>
-            </ul>
+
+    <main>
+        <section class="features">
+            <div class="container">
+                <h2 class="visually-hidden">Наши преимущества</h2>
+                <ul class="features-list">
+                    <li class="feature-made-in-russia">Комфортабельные ракеты отечественного производства.</li>
+                    <li class="feature-food">Вкусное и полезное космическое питание на борту.</li>
+                    <li class="feature-pilots">Весь состав пилотов состоит из бывших космонавтов.</li>
+                    <li class="feature-moon-rover">Экскурсии на луноходе на Море Ясности и Океан Бурь.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="moon-vacation">
+            <div class="container columns-container">
+                <h2 class="visually-hidden">Отпуск на Луне</h2>
+                <div class="left-column">
+                    <img src="img/map1.png" alt="Карта путешествия" width="440" height="347">
+                </div>
+                <div class="right-column">
+                    <p class="lead"><b>Надоело летать в отпуск за границу? Как на счет того, чтобы слетать на Луну?</b></p>
+                    <p>Устали от пакетных туров и пляжного отдыха? Полотенца и магнитики, которые вы привозите из отпуска уже не радуют ваших близких? В следующий раз привезите им настоящий лунный камень!</p>
+                    <p>Мы предлагаем инновационную услугу на туристическом рынке — космический туризм (пока только на Луну, сейчас решаем вопросы с визовым центром Венеры).</p>
+                    <p>Берите отпуск и отправляйтесь с нами в полет, он займет всего 72 часа!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommendations">
+            <div class="container columns-container">
+                <h2 class="visually-hidden">Рекомендации для космических туристов</h2>
+                <div class="left-column">
+                    <h3>Не забудьте взять с собой:</h3>
+                    <ul class="recommendations-list">
+                        <li><strong>Паспорт.</strong> Визовый режим пока не введен, но на границе будет досмотр.</li>
+                        <li><strong>Тяжелые ботинки.</strong> Пригодятся вам в условиях низкой гравитации на Луне.</li>
+                        <li><strong>Криптовалюта.</strong> Рекомендуем заранее обменять немного Лун-коинов, чтобы купить сувениры.</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>Это лучше оставить дома:</h3>
+                    <ul class="recommendations-list">
+                        <li><strong>Телефон. </strong>В космосе не ловит ваш любимый оператор и нет Wi-Fi.</li>
+                        <li><strong>Бутерброды.</strong> На борту будет питание, которое не разлетится по кабине в условиях невесомости.</li>
+                        <li><strong>Плавки/купальник.</strong> Море Ясности и Океан Бурь это большие кратеры. Без воды.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
     </main>
-    <footer>
-        <img src="img/logo 2.png" alt="logo">
-       <br><p>ООО "Косомос 3".
-           <br>Все права защищены.</p>
-           <p>Компания</p>
-           <ul class="list2">
-               <li>
-                   <a href="#" class="list4" title="История">
-                       <samp class="visually-hidden3">История</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items2" title="Миссия">
-                       <samp class="visually-hidden4">Мисия</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items3" title="Команда">
-                    <samp class="visually-hidden4">Команда</samp>  
-                   </a>
-               </li>
-           </ul>
-           <p>Каталог</p>
-           <ul class="list3">
-               <li>
-                   <a href="#" class="items3" title="Полёты">
-                       <samp class="visually-hidden5">Полёты</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items4" title="Проживания">
-                       <samp class="visually-hidden6">Проживания</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items5" title="Экскурсии">
-                       <samp class="visually-hidden7">Экскурсии</samp>
-                   </a>
-               </li>
-               
-           </ul>
-           <p>Контакты</p>
-           <ul class="list4">
-               <li>
-                   <a href="#" class="items6" title="Отправить заявку">
-                       <samp class="visually-hidden8">Отправить заявку</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items7" title="Схема проезад">
-                       <samp class="visually-hidden9">Схема проезда</samp>
-                   </a>
-               </li>
-               <li>
-                   <a href="#" class="items6" title="Время работы">
-                       <samp class="visually-hidden10">Время работы</samp>
-                   </a>
-               </li>
-           </ul>
+
+    <footer class="site-footer">
+        <div class="container footer-columns-container">
+            <div class="left-column">
+                <p class="logo-container">
+                    <a class="logo"><img src="img/logo.png" alt="Логотип SpaceZ" width="60" height="60"></a>
+                    <span class="company-title">Space Z</span>
+                </p>
+                <p class="copyrights">
+                    ООО «Космос Зэ».<br>
+                    Все права защищены.
+                </p>
+            </div>
+            <div class="right-column">
+                <ul class="footer-menu">
+                    <li>
+                        <a class="footer-submenu-title" href="#">Компания</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">История</a></li>
+                            <li><a href="#">Миссия</a></li>
+                            <li><a href="#">Команда</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="footer-submenu-title" href="#">Каталог</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">Полеты</a></li>
+                            <li><a href="#">Проживания</a></li>
+                            <li><a href="#">Экскурсия</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="footer-submenu-title" href="#">Контакты</a>
+                        <ul class="footer-submenu">
+                            <li><a href="#">Отправить заявку</a></li>
+                            <li><a href="#">Схема проезда</a></li>
+                            <li><a href="#">Время работы</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
